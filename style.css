@@ -46,3 +46,9 @@ h3 {
 p {
     color: #0B0014;
 }
+
+section#image {
+    background-image: url(image/angellshouse.png);
+    height: 530px;
+    width: auto;
+}
