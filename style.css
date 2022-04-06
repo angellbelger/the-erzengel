@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "oldenglish";
+    src: url(fonts/Old\ English\ Five.ttf);
+}
+
 body {
     background-color: #f0f6f6;
     margin: 0cm;
@@ -11,14 +18,17 @@ header {
 nav {
     background-color: #0B0014;
     text-align: center;
+    padding-bottom: 0cm;
 }
 
 nav > a {
     text-decoration: none;
+    margin: 7px;
     color: #5F758E;
 }
 
 h1 {
+    font-family: "oldenglish", Arial, Helvetica, sans-serif;
     color: #5F758E;
     text-align: center;
 }
