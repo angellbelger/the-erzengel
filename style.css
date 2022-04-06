@@ -1,26 +1,38 @@
 body {
-    background-color: black;
+    background-color: #f0f6f6;
+    margin: 0cm;
 }
 
 header {
+    background-image: linear-gradient(to bottom, #f0f6f6, #0B0014);
     text-align: center;
 }
 
+nav {
+    background-color: #0B0014;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #5F758E;
+}
+
 h1 {
-    color: white;
+    color: #5F758E;
     text-align: center;
 }
 
 h2 {
-    color: white;
+    color: #5F758E;
     text-align: center;
 }
 
 h3 {
-    color: white;
+    color: #5F758E;
     text-align: center;
 }
 
 p {
-    color: white;
+    color: #0B0014;
 }
