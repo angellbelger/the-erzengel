@@ -5,20 +5,23 @@
     src: url(fonts/Old\ English\ Five.ttf);
 }
 
+
+
 body {
     background-color: #f0f6f6;
     margin: 0cm;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #f0f6f6, #0B0014);
+    background-image: url(image/angellshouse.png);
     text-align: center;
 }
 
 nav {
     background-color: #0B0014;
     text-align: center;
-    padding-bottom: 0cm;
+    font-size: 1.4em;
+    padding: 0.2cm;
 }
 
 nav > a {
@@ -33,6 +36,10 @@ h1 {
     text-align: center;
 }
 
+h1#main {
+    font
+}
+
 h2 {
     color: #5F758E;
     text-align: center;
@@ -45,10 +52,4 @@ h3 {
 
 p {
     color: #0B0014;
-}
-
-section#image {
-    background-image: url(image/angellshouse.png);
-    height: 530px;
-    width: auto;
 }
