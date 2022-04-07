@@ -5,15 +5,29 @@
     src: url(fonts/Old\ English\ Five.ttf);
 }
 
+* {
+    margin: 0cm;
+    padding: 0cm;
 
+}
+
+:root {
+    --colour01: #0B0014;
+    --colour02: #5F758E;
+    --colour03: #F0F6F6;
+    --colour04: #88292f;
+    --fontParao: Arial, Verdana, Helvetica, Sans-serif;
+    --fontMain: "oldenglish", "Cursive"
+}
 
 body {
     background-color: #f0f6f6;
-    margin: 0cm;
 }
 
 header {
     background-image: url(image/angellshouse.png);
+    padding-top: 0.7cm;
+    padding-bottom: 0.35cm;
     text-align: center;
 }
 
@@ -21,27 +35,24 @@ nav {
     background-color: #0B0014;
     text-align: center;
     font-size: 1.4em;
-    padding: 0.2cm;
+    padding: 0.1cm 0cm 0.1cm 0cm;
+    box-shadow: 3px 2px 11px;
 }
 
 nav > a {
     text-decoration: none;
-    margin: 7px;
     color: #5F758E;
+    margin: 0.5cm;
 }
 
 h1 {
-    font-family: "oldenglish", Arial, Helvetica, sans-serif;
-    color: #5F758E;
+    font-family: var(--fontMain), Arial, Helvetica, sans-serif;
+    color: var(--colour02);
     text-align: center;
 }
 
-h1#main {
-    font
-}
-
 h2 {
-    color: #5F758E;
+    color: var(--colour02);
     text-align: center;
 }
 
