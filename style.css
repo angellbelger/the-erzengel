@@ -5,7 +5,10 @@
     src: url(fonts/Old\ English\ Five.ttf);
 }
 
+/* ------- Generic ------- */
+
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0cm;
     padding: 0cm;
 
@@ -20,12 +23,19 @@
     --fontMain: "oldenglish", "Cursive"
 }
 
+/* ------- Generic ------- */
+
+
+
 body {
     background-color: var(--colour02);
 }
 
 header {
-    background-image: url(image/angellshouse.png);
+    background-image: url(image/angellshouse2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding-top: 0.7cm;
     padding-bottom: 0.35cm;
     text-align: center;
@@ -53,6 +63,11 @@ main {
     padding: 10px;
     margin: auto;
     border-radius: 0cm 0cm 0.2cm 0.2cm;
+}
+
+img.demonstration {
+    display: block;
+    margin: auto;
 }
 
 h1 {
@@ -84,4 +99,5 @@ h3 {
 p {
     color: #0B0014;
     text-indent: 20px;
+    line-height: 30px;
 }
