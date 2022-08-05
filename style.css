@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    background-image: url(image/angellshouse2.png);
+    background-image: url(image/header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -47,13 +47,13 @@ nav {
     background-color: #0B0014;
     text-align: center;
     font-size: 1.4em;
-    padding: 0.1cm 0cm 0.1cm 0cm;
+    padding: 20px 20px 20px 20px;
     box-shadow: 3px 2px 11px;
 }
 
 nav > a {
     text-decoration: none;
-    color: #5F758E;
+    color: var(--colour02);
     margin: 0.5cm;
 }
 
@@ -105,15 +105,17 @@ header > h2 {
 }
 
 h3 {
-    color: #5F758E;
+    color: var(--colour02);
     text-align: center;
 }
 
-p {
+p.content {
     color: #0B0014;
+    font-size: 30px;
+    text-align: justify;
     text-indent: 20px;
-    padding: 10px;
-    line-height: 30px;
+    padding: 20px;
+    line-height: 50px;
 }
 
 div.img {
